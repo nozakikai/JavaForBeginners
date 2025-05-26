@@ -1,0 +1,9 @@
+
+public class TextTest extends MyFrame{
+	public void run() {
+		drawString("おはよう",100,100,15);
+		drawString("こんにちは",100,200,20);
+		drawString("佐久間ゆいとなり",100,150,30);
+		
+	}
+}

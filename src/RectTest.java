@@ -29,6 +29,6 @@ public class RectTest extends MyFrame{
 		fillRect(240,160,30,30);
 		
 		setColor(255,255,255);
-		fillRect(40,50,15,15);
+		fillRect(250,170,15,15);
 	}
 }
