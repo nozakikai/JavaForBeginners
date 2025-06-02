@@ -14,9 +14,9 @@ public class RectLoop extends MyFrame{
 			///x+=15;
 			
 			///4-3
-			setColor(0+x,0+x,0+x);
-			fillRect(x,80,10,100);
-			x+=15;
+			///setColor(0+x,0+x,0+x);
+			///fillRect(x,80,10,100);
+			///x+=15;
 		}
 	}
 	
