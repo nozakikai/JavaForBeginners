@@ -9,7 +9,7 @@ public class DisplayCar extends MyFrame {
 			car2.draw(this);
 			car1.move();
 			car2.move();
-			sleep(0.1);
+			sleep(0.01);
 
 		}
 	}

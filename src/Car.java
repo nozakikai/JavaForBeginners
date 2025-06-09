@@ -18,7 +18,7 @@ public class Car {
 	}
 	
 	public void move() {
-		x += vx;
+		x += vx++;
 		
 		if(x > 450)
 		{
