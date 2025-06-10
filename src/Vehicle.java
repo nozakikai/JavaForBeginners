@@ -22,9 +22,9 @@ public class Vehicle {
 			x -= frame.getWidth()+100;
 		}
 
-		if (x > frame.getWidth()) {
-			x += frame.getWidth()-100;
-		}
+		//if (x > frame.getWidth()) {
+		//	x += frame.getWidth()-100;
+		//}
 	}
 
 }
