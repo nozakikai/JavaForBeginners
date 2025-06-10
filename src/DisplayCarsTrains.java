@@ -9,7 +9,7 @@ public class DisplayCarsTrains extends MyFrame {
 			clear();
 			for (int j = 0; j < Vehicles.length; j++) {
 				Vehicles[j].draw(this);
-				Vehicles[j].move();
+				Vehicles[j].move(this);
 			}
 			sleep(0.03);
 		}

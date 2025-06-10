@@ -7,8 +7,8 @@ public class DisplayCar extends MyFrame {
 			clear();
 			car1.draw(this);
 			car2.draw(this);
-			car1.move();
-			car2.move();
+			car1.move(this);
+			car2.move(this);
 			sleep(0.01);
 
 		}

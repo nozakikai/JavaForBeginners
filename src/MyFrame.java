@@ -4,7 +4,6 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Frame;
 import java.awt.Graphics;
-import java.awt.Image;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
@@ -12,6 +11,7 @@ import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
+
 
 /**
  * グラフィックスを簡単に表示するウィンドウクラス
@@ -33,18 +33,26 @@ public class MyFrame extends Frame implements Runnable {
 	 * ウィンドウを作成し、表示する。
 	 */
 	public MyFrame() {
+		
 		super();
 		setSize(400,400	);
+		
 		im=new BufferedImage(400, 400, BufferedImage.TYPE_INT_ARGB);
 		setVisible(true);
+		
+		
+	   
 		addWindowListener(new WindowAdapter() {
 			@Override
 			public void windowClosing(WindowEvent e) {
 				setVisible(false);
 				System.exit(1);
+			
 			}
+			
 		});
 		//autoSave();
+		
 	}
 	public synchronized void saveImage(File dst) throws IOException {
 		ImageIO.write(im, "png", dst);
